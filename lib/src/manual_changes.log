@@ -1,0 +1,17 @@
+All changes made to library before/after generation
+
+CHANGES TO TS CODE
+changed some internal function definitions in NDArray math/math.ts to be generic
+
+--------------------------------------------------------------------------------
+
+CHANGES TO GENERATED DART CODE
+import file paths
+
+generated/input_provider.dart
+* Added factory constructor to InCPUMemoryShuffledInputProviderBuilder
+external factory InCPUMemoryShuffledInputProviderBuilder(
+    List<List<NDArray>> inputs);
+
+generated/generated.dart
+* Remove imports, export pseudo-enums
