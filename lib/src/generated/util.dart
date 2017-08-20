@@ -51,8 +51,8 @@ external void assertShapesMatch(List<num> shapeA, List<num> shapeB,
 /// tslint:disable-next-line:no-any
 @JS()
 external List<num> flatten(List<dynamic> arr,
-    [List<
-        num> ret]); /*export type ArrayData = number|number[]|number[][]|number[][][]|number[][][][];*/
+    [List<num>
+        ret]); /*export type ArrayData = number|number[]|number[][]|number[][][]|number[][][][];*/
 @JS()
 external List<num> inferShape(
     dynamic /*num|List<num>|List<List<num>>|List<List<List<num>>>|List<List<List<List<num>>>>*/ arr);

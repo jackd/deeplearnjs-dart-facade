@@ -86,7 +86,7 @@ class InCPUMemoryShuffledInputProviderBuilder
   external getInputProvider(num inputId);
 
   external factory InCPUMemoryShuffledInputProviderBuilder(
-    List<List<NDArray>> inputs);
+      List<List<NDArray>> inputs);
 }
 
 /// An in GPU memory ShuffledInputProviderBuilder that shuffles NDArrays on the

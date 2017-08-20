@@ -29,7 +29,9 @@ class Softmax extends Operation {
   external set output(Tensor v);
   external factory Softmax(Tensor logitsTensor, Tensor output);
   external feedForward(NDArrayMath math, TensorArrayMap inferenceArrays);
-  external backProp([NDArrayMath math, TensorArrayMap inferenceArrays,
+  external backProp(
+      [NDArrayMath math,
+      TensorArrayMap inferenceArrays,
       TensorArrayMap gradientArrays]);
 }
 
