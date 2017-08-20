@@ -12,21 +12,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="scaffolded-by" content="https://github.com/google/stagehand">
-    <title>intro</title>
+    <title>adder</title>
     <!-- <link rel="stylesheet" href="../styles.css"> -->
     <script src="packages/deeplearnjs_facade/js/deeplearn.js"></script>
     <!-- <script src="https://storage.googleapis.com/learnjs-data/deeplearn.js"></script> -->
 
 </head>
 
+<style>
+  .input {
+    padding:0pt 5pt 0pt 5pt;
+    background:#CCC;
+    display:inline;
+  }
+  #output{
+    display:inline;
+  }
+</style>
+
 <body>
-  <h1>Introduction tutorial code</h1>
+  <input id="A" class="input" type="text" value="1">
+  +
+  <input id="B" class="input" type="text" value="1">
+  =
+  <div id="output">Calculating...</div>
 
-  <h3>Check the JavaScript console!</h3>
 
-  <script defer src="intro.dart" type="application/dart"></script>
+  <script defer src="adder.dart" type="application/dart"></script>
   <script defer src="packages/browser/dart.js"></script>
-
 </body>
 
 </html>
