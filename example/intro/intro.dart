@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:deeplearnjs/deeplearnjs.dart';
+import 'package:deeplearnjs_facade/deeplearnjs_facade.dart';
 import 'package:js/js.dart';
 
 void arrayMathGpuTutorial() {

@@ -1,7 +1,7 @@
 name: deeplearnjs_facade
 description: A light dart wrapper around deelearnjs
 version: 0.0.1
-#homepage: https://github.com/jackd/deeplearnjs-dart-facade
+homepage: https://github.com/jackd/deeplearnjs-dart-facade
 author: Dominic Jack <thedomjack@gmail.com>
 
 environment:
